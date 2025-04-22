@@ -235,4 +235,4 @@ def update_graphs(pie_click, bar_cv_click, map_click, bar_sales_click):
     return pie_fig, bar_fig, map_fig, bar_figm
 
 if __name__ == '__main__':
-    app.run(debug=True, port=8050)
+    app.run(debug=True, port=8052)
