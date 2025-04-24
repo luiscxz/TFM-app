@@ -173,7 +173,7 @@ def main():
         time.sleep(2)
         #st.markdown("""<iframe src="http://127.0.0.1:8050/" width="100%" height="800" frameborder="0"></iframe>""", unsafe_allow_html=True)
         components.html("""
-        <iframe src="https://solid-space-cod-6jxrvw5rg45crrpp-8052.app.github.dev" width="100%" height="100%" frameborder="0" style="position: absolute; top: 0; left: 0; right: 0; bottom: 0;"></iframe>""", 
+        <iframe src="https://dasboardtotfm.onrender.com" width="100%" height="100%" frameborder="0" style="position: absolute; top: 0; left: 0; right: 0; bottom: 0;"></iframe>""", 
         height=800)
 
     # -----------------Sección donde se visualizan el análisis temporal---------------------#
