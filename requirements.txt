@@ -1,1 +1,12 @@
-streamlit
+dash==3.0.3
+dash-bootstrap-components==2.0.2
+Flask==3.0.3
+numpy==1.26.0
+pandas==2.2.3
+plotly==6.0.1
+scikit-learn==1.5.2
+scipy==1.14.1
+seaborn==0.13.2
+statsmodels==0.14.4
+streamlit==1.44.1
+xgboost==2.1.3
