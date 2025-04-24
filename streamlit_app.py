@@ -44,10 +44,6 @@ ventastotales['TotalSales'] = ventastotales['TotalSales']/1e9
 ventastotales['MeanSales'] = ventastotales['MeanSales']/1e6
 # ---------------------------------------------------------------------------------------------#
 dminmaxdf =dataset_minmaxdata(df)
-def run_dash():
-    subprocess.Popen(["python", "Dashboard.py"])
-run_dash()
-
 st.set_page_config(layout="wide")  # Configuración inicial
 #1. Menú
 def main():
@@ -170,10 +166,10 @@ def main():
     
     elif eleccion == 'Ventas totales por ciudad':
         # Ejecutar dasboard aquí
-        time.sleep(2)
+        time.sleep(3)
         #st.markdown("""<iframe src="http://127.0.0.1:8050/" width="100%" height="800" frameborder="0"></iframe>""", unsafe_allow_html=True)
         components.html("""
-        <iframe src="https://dasboardtotfm.onrender.com" width="100%" height="100%" frameborder="0" style="position: absolute; top: 0; left: 0; right: 0; bottom: 0;"></iframe>""", 
+        <iframe src="https://dashboardtfm.up.railway.app" width="100%" height="100%" frameborder="0" style="position: absolute; top: 0; left: 0; right: 0; bottom: 0;"></iframe>""", 
         height=800)
 
     # -----------------Sección donde se visualizan el análisis temporal---------------------#
