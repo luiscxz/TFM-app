@@ -31,4 +31,6 @@ Este sistema está diseñado para explorar y predecir el comportamiento de venta
 
    ```bash
    pip install -r requirements.txt
-
+2. jecuta la aplicación:
+   ``` bash
+   streamlit run streamlit_app.py
